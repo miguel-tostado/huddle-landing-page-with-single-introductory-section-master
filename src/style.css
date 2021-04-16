@@ -1,0 +1,118 @@
+/* 1440 and 375 */
+/* poppins for headings, open sans for the -m-body */
+/* [Font Awesome](https://fontawesome.com/) */
+
+:root {
+  --ff-open-sans: "Open Sans", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
+
+  --fs-d-heading: 40px;
+  --fs-d-body: 18px;
+
+  --fs-m-heading: 24px;
+  --fs--m-body: 16px;
+  --fs-m-button: 12px;
+
+  --fw-semi-bold: 600;
+  --fw-regular: 400;
+
+  --color-violet: hsl(257, 40%, 49%);
+  --color-soft-magenta: hsl(300, 69%, 71%);
+  --color-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.product-info {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.button {
+  background-color: var(--color-white);
+  color: var(--color-violet);
+}
+
+.button:hover {
+  background-color: var(--color-soft-magenta);
+  color: var(--color-white);
+}
+
+.illustration {
+  width: 100%;
+}
+
+@media (max-width: 376px) {
+  body {
+    background-color: var(--color-violet);
+    background-image: url(img/bg-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .product-info {
+    margin: 0 35px;
+  }
+
+  h1,
+  .button {
+    font-family: var(--ff-poppins);
+  }
+
+  h1 {
+    font-size: var(--fs-m-heading);
+    font-weight: var(--fw-semi-bold);
+  }
+
+  p,
+  .button {
+    font-weight: var(--fw-regular);
+  }
+
+  p {
+    font-family: var(--ff-open-sans);
+    font-size: var(--fs--m-body);
+    margin: 16px auto 24px;
+  }
+
+  .logo {
+    width: 120px;
+    margin: 40px;
+  }
+
+  .illustration {
+    margin: 13px auto 60px;
+    padding: 0 39.5px;
+  }
+
+  .button {
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 1);
+    font-size: var(--fs-m-button);
+    padding: 11px 75px;
+  }
+
+  .socials {
+    color: var(--color-white);
+    margin: 64px auto 40px;
+    text-align: center;
+  }
+
+  i {
+    font-size: 28px;
+  }
+
+  .center {
+    margin: 0 10.5px;
+  }
+}
