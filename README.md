@@ -2,6 +2,8 @@
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71d23a78-dd8a-491f-9337-581dc6b3c501/deploy-status)](https://app.netlify.com/sites/musing-pare-bfa0c7/deploys)
+
 ## Table of contents
 
 - [Frontend Mentor - Huddle landing page with single introductory section solution](#frontend-mentor---huddle-landing-page-with-single-introductory-section-solution)
