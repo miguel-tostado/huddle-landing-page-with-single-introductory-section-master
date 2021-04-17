@@ -307,6 +307,7 @@ a:active {
   }
 
   .product-info {
+    margin: 0;
     margin-top: 35.51px;
     margin-left: 59px;
     text-align: left;
